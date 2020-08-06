@@ -19,5 +19,9 @@ public class TossCoin {
 		  else numTails++;
 	      }
 	      System.out.println("Heads: " + numHeads + ", Tails: " + numTails);
+
+	      //result
+	      if(numHeads > numTails) System.out.println("You won!");
+	      else System.out.println("You lost!");
        }
 }
